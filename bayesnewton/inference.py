@@ -50,8 +50,11 @@ class InferenceMixin(abc.ABC):
     """
 
     num_data: float
+    # Y: np.DeviceArray
+    # ind: np.DeviceArray
     Y: Array
     ind: Array
+  
     pseudo_likelihood: GaussianDistribution
     posterior_mean: objax.StateVar
     posterior_var: objax.StateVar
