@@ -1,5 +1,5 @@
-jax==0.4.14
-jaxlib==0.4.14
+jax==0.4.34
+jaxlib==0.4.34
 objax==1.7.0
 numpy
 matplotlib
